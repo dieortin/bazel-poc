@@ -2,7 +2,7 @@
 #define POC_SOMECOMPONENTTYPE_H
 
 #include <string>
-#include "core/types/GenericType.h"
+#include "GenericType.h"
 
 namespace component {
     namespace types {
