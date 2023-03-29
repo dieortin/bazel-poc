@@ -9,7 +9,6 @@ cc_library(
     name = "topics",
     srcs = ["topics/SomeTopic.cpp"],
     hdrs = ["topics/SomeTopic.h"],
-    includes = ["topics"],
     visibility = ["//servers:__subpackages__"],
     deps = [":types"],
 )
